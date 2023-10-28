@@ -1,0 +1,44 @@
+body {
+   background: black; 
+}
+
+.hero {
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero-title {
+  color: hsl(177, 46%, 65%);
+  font-size: 17vh;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 2vh;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  background-image: url(https://unsplash.it/1012);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(23, 35, 206, 0.356);
+}
+
+.hero-image {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  -webkit-mask-image: url("./00042\ Butterfly.svg");
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+svg {
+  border: 2px solid #000;
+}
+/*# sourceMappingURL=style.scss.map */
